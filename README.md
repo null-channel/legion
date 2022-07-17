@@ -22,8 +22,23 @@
  - [x] Node to node cluster communication implementation (zeroMQ)
  - [x] Container Runtime integration
  - [ ] Resource Defs
- - [ ] Git Mech
+   - [ ] container?
+   - [ ] kube pod?
+   - [ ] kube deployment?
+   - [ ] kube service?
+ - [ ] CP Storage
+ - [ ] CP Consensus  
  - [ ] Machine taints
+ - [ ] Network
+
+## Youtube???
+Yes, not only will I be streaming it a few nights a week on twitch starting later this year. I am going to make youtube videos covering the "how and whys" of the project. Because of this there are a few constraints this puts on the branching of the project. That being said, I would stay away from this project if I was you until at least 2023. And then watch the youtube series first and then join the live streams and THEN start contributing :)
+
+#### Branching
+There are 3 types of branches
+ - Main - this is the main branch for development
+ - vX.X - this is a release branch for the release of x.x
+ - ytX - this is a branch that contains spesific code for youtube episode x
 
 ## Building and testing
 Building and local unit testing are made simple by cargo.
