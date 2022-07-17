@@ -1,4 +1,4 @@
-use gary_zmq::cluster_api::*;
+use legion_zmq::cluster_api::*;
 
 use chrono::{DateTime, Utc};
 use std::collections::HashMap;

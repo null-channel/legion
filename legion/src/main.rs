@@ -3,7 +3,7 @@ extern crate daemonize;
 extern crate log;
 
 //default plugins;
-extern crate gary_docker;
+extern crate legion_docker;
 
 mod cli;
 mod cluster_api;

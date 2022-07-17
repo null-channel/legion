@@ -1,9 +1,9 @@
 [package]
-name = "gary-scheduler"
+name = "legion-scheduler"
 version = "0.1.0"
 authors = ["Marek Counts <mcounts@suse.com>"]
 edition = "2018"
-description = "simple docker plugin for gary"
+description = "simple docker plugin for legion"
 license = "MIT"
 
 [lib]

@@ -5,7 +5,7 @@ use common::cluster_api::*;
 use common::defaults::*;
 
 fn main() {
-    let matches = App::new("Gary")
+    let matches = App::new("legion")
         .version("0.1.0")
         .author("Marek C. <countsmarek@gmail.com>")
         .about("Does awesome things! very awesome.")

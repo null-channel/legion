@@ -1,9 +1,9 @@
 [package]
-name = "gary-common"
+name = "legion-common"
 version = "0.0.1"
-authors = ["Marek Counts <mcounts@suse.com>"]
+authors = ["Marek Counts <marek@thenullchannel.dev>"]
 edition = "2018"
-description = "common components shared by all things gary"
+description = "common components shared by all things legion"
 license = "MIT"
 
 [dependencies]

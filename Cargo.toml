@@ -1,9 +1,9 @@
 [workspace]
 members = [
     "common",
-    "gary-zmq",
-    "garyctl",
-    "gary",
-    "plugins/gary-scheduler",
-    "plugins/gary-plugin-cri",
+    "legion-zmq",
+    "legionctl",
+    "legion",
+    "plugins/legion-scheduler",
+    "plugins/legion-plugin-cri",
 ]

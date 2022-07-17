@@ -1,3 +1,3 @@
-# Core components of gary
+# Core components of legion
 enough said.
 maybe more to come

@@ -1,16 +1,16 @@
 [package]
-name = "gary-plugin-docker"
+name = "legion-plugin-docker"
 version = "0.0.2"
 authors = ["Marek Counts <mcounts@suse.com>"]
 edition = "2018"
-description = "simple docker plugin for gary"
+description = "simple docker plugin for legion"
 license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-common = { path = "../../common" , version = "0.0.1", package = "gary-common"}
+common = { path = "../../common" , version = "0.0.1", package = "legion-common"}
 bollard = "0.3"
 tokio = "0.1"
 futures = "0.1"

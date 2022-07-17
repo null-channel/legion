@@ -1,15 +1,16 @@
-[![Actions Status](https://github.com/project-gary/gary/workflows/unit-tests/badge.svg)](https://github.com/project-gary/actions)
-[![Actions Status](https://github.com/project-gary/gary/workflows/checks/badge.svg)](https://github.com/project-gary/actions)
+[![Actions Status](https://github.com/project-legion/legion/workflows/unit-tests/badge.svg)](https://github.com/project-legion/actions)
+[![Actions Status](https://github.com/project-legion/legion/workflows/checks/badge.svg)](https://github.com/project-legion/actions)
 
-# code-name-gary
-Code Name Gary
+# Legion
 
 ## Goals
- * Container orchestrator, expandable to other runtimes (VMs, functions, processes, etc)
+ * Scaleable to billions or trillions of nodes
+ * Runtime agnaustic orchestrator, will support OCI initially.
  * Control-plane vs worker node == no difference for install/user.
  * Single binary install
- * Based on promise theory
- * HA on as few as 3 nodes and scale to millions of nodes
+ * Based on promise theory?
+ * HA on as few as 3 nodes
+ * Gitops core?
 
 ## Non-goals
  * Service mesh
@@ -19,7 +20,9 @@ Code Name Gary
  - [x] Initial Cluster API
  - [x] Node to node cluster communication interface
  - [x] Node to node cluster communication implementation (zeroMQ)
- - [ ] Container Runtime integration
+ - [x] Container Runtime integration
+ - [ ] Resource Defs
+ - [ ] Git Mech
  - [ ] Machine taints
 
 ## Building and testing

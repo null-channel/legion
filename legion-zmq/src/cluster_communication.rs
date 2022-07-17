@@ -251,5 +251,5 @@ impl ZmqNode {
 
     // TO BE IMPLEMENTED
     // fn join()                // May not be needed - just start a node with known adjacent nodes
-    // fn add_node()            // This may belong in garyctl - just send a gossip message with new node
+    // fn add_node()            // This may belong in legionctl - just send a gossip message with new node
 }

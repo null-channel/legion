@@ -16,7 +16,7 @@ use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
 
 pub fn cli() {
-    let matches = App::new("Gary")
+    let matches = App::new("legion")
         .version("0.1.0")
         .author("Marek C. <countsmarek@gmail.com>")
         .about("Does awesome things! very awesome.")
@@ -54,7 +54,7 @@ pub fn cli() {
 
     let mut runtime_plugin_manager = runtime_plugin_manager::RuntimePluginManager::new();
 
-    let docker_box = Box::from(gary_docker::ContainerdRuntimePlugin::new());
+    let docker_box = Box::from(legion_docker::ContainerdRuntimePlugin::new());
     runtime_plugin_manager.load_in_memory_plugin(docker_box);
 
     let cur_dir = env::current_dir();
@@ -85,7 +85,7 @@ pub fn cli() {
     if matches.is_present("daemon") {
         println!("Running as daemon");
         let daemonize = Daemonize::new()
-            .pid_file("/var/run/gary.pid")
+            .pid_file("/var/run/legion.pid")
             .chown_pid_file(true)
             .working_directory("/tmp")
             .user("root")

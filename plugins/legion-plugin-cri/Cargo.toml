@@ -1,16 +1,16 @@
 [package]
-name = "gary-plugin-cri"
+name = "legion-plugin-cri"
 version = "0.0.1"
 authors = ["Marek Counts <countsmarek@gmail.com>"]
 edition = "2018"
-description = "simple cri plugin for gary"
+description = "simple cri plugin for legion"
 license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-common = { path = "../../common" , version = "0.0.1", package = "gary-common"}
+common = { path = "../../common" , version = "0.0.1", package = "legion-common"}
 anyhow = "1.0.32"
 clap = { git = "https://github.com/clap-rs/clap", features = ["wrap_help"] }
 derive_builder = { git = "https://github.com/colin-kiegel/rust-derive-builder" }

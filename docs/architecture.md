@@ -1,9 +1,9 @@
-# Gary Architecture
+# legion Architecture
 
-Gary is designed from the ground up to be designed as a container orchestrator that uses freedom as a key principle.
+legion is designed from the ground up to be designed as a container orchestrator that uses freedom as a key principle.
 
 - no control plane. your cluster will operate (as long as it has enough nodes to do all the work!) no mater what nodes fail. no compromises. This will be initially accomplished using Promise Theory.
-- speed and efficiency. Gary is designed from the ground up to have the minimum overhead. You pay for your hardware, your orchestrator should not waste them especially when it runs on every machine.
+- speed and efficiency. legion is designed from the ground up to have the minimum overhead. You pay for your hardware, your orchestrator should not waste them especially when it runs on every machine.
 - Adherence to Unix philosophies, in particular:
     * Make each program do one thing, and do it well (aka, we will NOT make a service mesh included, that is a separate issue.)
     * Make sure you write things to work together with other applications
