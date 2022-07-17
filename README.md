@@ -1,5 +1,5 @@
-[![Actions Status](https://github.com/project-legion/legion/workflows/unit-tests/badge.svg)](https://github.com/project-legion/actions)
-[![Actions Status](https://github.com/project-legion/legion/workflows/checks/badge.svg)](https://github.com/project-legion/actions)
+[![Actions Status](https://github.com/null-channel/legion/workflows/unit-tests/badge.svg)](https://github.com/null-channel/actions)
+[![Actions Status](https://github.com/null-channel/legion/workflows/checks/badge.svg)](https://github.com/null-channel/actions)
 
 # Legion
 
