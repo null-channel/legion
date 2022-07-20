@@ -65,7 +65,7 @@ fn get(_resource_type: String, matches: &ArgMatches) {
     println!("getting nodes");
 
     //Default target
-    let mut target = String::from(TARGET.clone());
+    let mut target = String::from(TARGET);
 
     if matches.is_present("target") {
         target = String::from(matches.value_of("target").unwrap());
